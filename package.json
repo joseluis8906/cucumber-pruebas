@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/tsc && mkdir report || true && ./node_modules/.bin/cucumber-js features/ -f json:report/cucumber_report.json || true && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/chai-as-promised": "^7.1.0",
+    "@types/cucumber": "^4.0.5",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.9.5",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-smoothie": "^0.3.2",
+    "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^4.0.5",
+    "mocha": "^6.0.2",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  }
+}
