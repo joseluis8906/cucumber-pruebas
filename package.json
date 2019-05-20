@@ -6,7 +6,7 @@
   "scripts": {
     "build": "./node_modules/.bin/tsc",
     "test": "npm run build && npm run test:build && npm run test:reports",
-    "test:build": "./node_modules/.bin/cucumber-js test/resources/**/*.feature  || true", 
+    "test:build": "./node_modules/.bin/cucumber-js test/resources/*.feature  || true", 
     "test:reports": "node dist/main/index.js"
   },
   "author": "",
