@@ -66,3 +66,4 @@ yarn.lock
 *.steps.js
 *.map
 report
+dist

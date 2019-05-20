@@ -1,11 +1,17 @@
 var reporter = require('cucumber-html-reporter');
- 
+
+process.on('unhandledRejection', (err, p) => {
+  console.log('An unhandledRejection occurred');
+  console.log(`Rejected Promise: ${p}`);
+  console.log(`Rejection: ${err}`);
+});
+
 var options = {
   theme: 'bootstrap',
-  jsonFile: 'report/cucumber_report.json',
-  output: 'report/cucumber_report.html',
+  jsonFile: 'target/reports/report.json',
+  output: 'target/reports/report.html',
   reportSuiteAsScenarios: true,
-  launchReport: true,
+  launchReport: false,
   metadata: {
     "App Version":"0.3.2",
     "Test Environment": "STAGING",

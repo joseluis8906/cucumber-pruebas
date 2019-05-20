@@ -1,0 +1,60 @@
+[
+  {
+    "description": "  Con el fin de comprobar el comportamiento del objeto Frame\n  se hacen llamados a funciones para verificar el estado interno\n  de los mismos.",
+    "keyword": "Feature",
+    "name": "Pruebas del objeto Frame",
+    "line": 1,
+    "id": "pruebas-del-objeto-frame",
+    "tags": [],
+    "uri": "test/resources/frame/creation.feature",
+    "elements": [
+      {
+        "id": "pruebas-del-objeto-frame;creación-de-un-objeto-frame",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Creación de un objeto Frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Que quiero crear un objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/creation.steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "LLame al constructor de la clase 'Frame'",
+            "match": {
+              "location": "dist/test/features/frame/creation.steps.js:5"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "La instancia creada debe ser de tipo 'Frame'",
+            "match": {
+              "location": "dist/test/features/frame/creation.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
