@@ -43,25 +43,10 @@ Feature: Pruebas del objeto Frame
     When LLame al método setSize del objeto Frame
     Then El objecto Frame debe responder dimension setted
 
-  Scenario: Establecer únicamente el ancho de un objeto Frame
-    Given Que quiero establecer el ancho de un objeto Frame
-    When LLame al método setWidth del objeto Frame
-    Then El objecto Frame debe responder width setted
-
-  Scenario: Establecer únicamente el alto de un objeto Frame
-    Given Que quiero establecer el alto de un objeto Frame
-    When LLame al método setHeight del objeto Frame
-    Then El objecto Frame debe responder height setted
-
-  Scenario: Acceder únicamente el ancho de un objeto Frame
-    Given Que quiero acceder al ancho de un objeto Frame
-    When LLame al método getWidth del objeto Frame
-    Then El objecto Frame debe responder un numero de ancho
-
-  Scenario: Acceder únicamente el alto de un objeto Frame
-    Given Que quiero acceder al alto de un objeto Frame
-    When LLame al método getHeight del objeto Frame
-    Then El objecto Frame debe responder un numero de alto
+  Scenario: Acceder a las dimensiones de un objeto Frame
+    Given Que quiero acceder a las dimensiones de un objeto Frame
+    When LLame al método getSize del objeto Frame
+    Then El objecto Frame debe responder una tupla ancho y alto
 
   Scenario: Acceder elemento html de un objeto Frame
     Given Que quiero acceder al elemento html de un objeto Frame

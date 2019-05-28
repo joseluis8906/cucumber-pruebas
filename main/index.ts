@@ -7,6 +7,8 @@ process.on('unhandledRejection', (err, p) => {
 });
 
 var options = {
+  name: "GWT Framework",
+  brandTitle: "Pruebas Unitarias y de Aceptación",
   theme: 'bootstrap',
   jsonFile: 'target/reports/report.json',
   output: 'target/reports/report.html',
