@@ -59,4 +59,16 @@ export class Frame {
     public setBackgroundPosition(position: Array<Number>): string {
         return "background position setted";
     }
+
+    public setBackgroundSize(size: Array<Number>): string {
+        return "background size setted";
+    }
+
+    public setBorderSize(size: Number): string {
+        return "background size setted";
+    }
+
+    public setClass(cssClass: string): string {
+        return "class setted";
+    }
 }

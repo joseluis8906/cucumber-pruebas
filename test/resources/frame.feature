@@ -92,11 +92,6 @@ Feature: Pruebas del objeto Frame
     Given Que quiero establecer el ancho del borde de un objeto Frame
     When LLame al método setBorderSize del objeto Frame
     Then El objecto Frame debe responder border size setted
-
-  Scenario: Establecer el estilo del borde de un objeto Frame
-    Given Que quiero establecer el estilo del borde de un objeto Frame
-    When LLame al método setBorderStyle del objeto Frame
-    Then El objecto Frame debe responder border style setted
   
   Scenario: Establecer la clase css de un objeto Frame
     Given Que quiero establecer la clase css de un objeto Frame
