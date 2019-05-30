@@ -51,8 +51,7 @@
               "location": "dist/test/features/frame/steps/01-Creation.steps.js:11"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -86,8 +85,7 @@
               "location": "dist/test/features/frame/steps/02-AddChild.steps.js:8"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -145,7 +143,8 @@
               "location": "dist/test/features/frame/steps/03-AccessToChilds.steps.js:11"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -210,7 +209,7 @@
             "line": 27,
             "name": "Que quiero eliminar manejadores de eventos de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/05-RemoveEventHandler.steps..js:7"
+              "location": "dist/test/features/frame/steps/05-RemoveEventHandler.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -222,7 +221,7 @@
             "line": 28,
             "name": "LLame al método removeEvent del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/05-RemoveEventHandler.steps..js:8"
+              "location": "dist/test/features/frame/steps/05-RemoveEventHandler.steps.js:8"
             },
             "result": {
               "status": "passed"
@@ -234,10 +233,11 @@
             "line": 29,
             "name": "El objecto Frame debe responder handler removed",
             "match": {
-              "location": "dist/test/features/frame/steps/05-RemoveEventHandler.steps..js:11"
+              "location": "dist/test/features/frame/steps/05-RemoveEventHandler.steps.js:11"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -256,10 +256,11 @@
             "line": 32,
             "name": "Que quiero establecer el elemento html a un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/06-SetHtml.steps..js:7"
+              "location": "dist/test/features/frame/steps/06-SetHtml.steps.js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -268,7 +269,7 @@
             "line": 33,
             "name": "LLame al método setHtml del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/06-SetHtml.steps..js:8"
+              "location": "dist/test/features/frame/steps/06-SetHtml.steps.js:8"
             },
             "result": {
               "status": "passed"
@@ -280,7 +281,7 @@
             "line": 34,
             "name": "El objecto Frame debe responder html setted",
             "match": {
-              "location": "dist/test/features/frame/steps/06-SetHtml.steps..js:11"
+              "location": "dist/test/features/frame/steps/06-SetHtml.steps.js:11"
             },
             "result": {
               "status": "passed"
@@ -302,11 +303,10 @@
             "line": 37,
             "name": "Que quiero establecer el nivel de profundidad de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/07-SetZIndex.steps..js:7"
+              "location": "dist/test/features/frame/steps/07-SetZIndex.steps.js:7"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -315,10 +315,11 @@
             "line": 38,
             "name": "LLame al método setZIndex del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/07-SetZIndex.steps..js:8"
+              "location": "dist/test/features/frame/steps/07-SetZIndex.steps.js:8"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -327,7 +328,7 @@
             "line": 39,
             "name": "El objecto Frame debe responder z-index setted",
             "match": {
-              "location": "dist/test/features/frame/steps/07-SetZIndex.steps..js:11"
+              "location": "dist/test/features/frame/steps/07-SetZIndex.steps.js:11"
             },
             "result": {
               "status": "passed"
@@ -349,7 +350,7 @@
             "line": 42,
             "name": "Que quiero establecer las dimensiones de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/08-SetDimensions.steps..js:7"
+              "location": "dist/test/features/frame/steps/08-SetDimensions.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -361,11 +362,10 @@
             "line": 43,
             "name": "LLame al método setSize del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/08-SetDimensions.steps..js:8"
+              "location": "dist/test/features/frame/steps/08-SetDimensions.steps.js:8"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -374,7 +374,7 @@
             "line": 44,
             "name": "El objecto Frame debe responder dimension setted",
             "match": {
-              "location": "dist/test/features/frame/steps/08-SetDimensions.steps..js:11"
+              "location": "dist/test/features/frame/steps/08-SetDimensions.steps.js:11"
             },
             "result": {
               "status": "passed"
@@ -396,7 +396,7 @@
             "line": 47,
             "name": "Que quiero acceder a las dimensiones de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/09-GetDimensions.steps..js:7"
+              "location": "dist/test/features/frame/steps/09-GetDimensions.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -408,7 +408,7 @@
             "line": 48,
             "name": "LLame al método getSize del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/09-GetDimensions.steps..js:8"
+              "location": "dist/test/features/frame/steps/09-GetDimensions.steps.js:8"
             },
             "result": {
               "status": "passed"
@@ -420,7 +420,7 @@
             "line": 49,
             "name": "El objecto Frame debe responder una tupla ancho y alto",
             "match": {
-              "location": "dist/test/features/frame/steps/09-GetDimensions.steps..js:11"
+              "location": "dist/test/features/frame/steps/09-GetDimensions.steps.js:11"
             },
             "result": {
               "status": "passed",
@@ -443,7 +443,7 @@
             "line": 52,
             "name": "Que quiero acceder al elemento html de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/10-GetHtml.steps..js:7"
+              "location": "dist/test/features/frame/steps/10-GetHtml.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -455,7 +455,7 @@
             "line": 53,
             "name": "LLame al método getHtml del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/10-GetHtml.steps..js:8"
+              "location": "dist/test/features/frame/steps/10-GetHtml.steps.js:8"
             },
             "result": {
               "status": "passed"
@@ -467,7 +467,7 @@
             "line": 54,
             "name": "El objecto Frame debe responder un elemento html",
             "match": {
-              "location": "dist/test/features/frame/steps/10-GetHtml.steps..js:11"
+              "location": "dist/test/features/frame/steps/10-GetHtml.steps.js:11"
             },
             "result": {
               "status": "passed"
@@ -489,7 +489,7 @@
             "line": 57,
             "name": "Que quiero establecer la posición de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/11-SetPosition.steps..js:7"
+              "location": "dist/test/features/frame/steps/11-SetPosition.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -501,7 +501,7 @@
             "line": 58,
             "name": "LLame al método setPosition del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/11-SetPosition.steps..js:8"
+              "location": "dist/test/features/frame/steps/11-SetPosition.steps.js:8"
             },
             "result": {
               "status": "passed"
@@ -513,11 +513,10 @@
             "line": 59,
             "name": "El objecto Frame debe responder position setted",
             "match": {
-              "location": "dist/test/features/frame/steps/11-SetPosition.steps..js:11"
+              "location": "dist/test/features/frame/steps/11-SetPosition.steps.js:11"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -536,7 +535,7 @@
             "line": 62,
             "name": "Que quiero acceder la posición de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/12-GetPosition.steps..js:7"
+              "location": "dist/test/features/frame/steps/12-GetPosition.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -548,7 +547,7 @@
             "line": 63,
             "name": "LLame al método getPosition del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/12-GetPosition.steps..js:8"
+              "location": "dist/test/features/frame/steps/12-GetPosition.steps.js:8"
             },
             "result": {
               "status": "passed"
@@ -560,7 +559,7 @@
             "line": 64,
             "name": "El objecto Frame debe responder una tupla con X y Y",
             "match": {
-              "location": "dist/test/features/frame/steps/12-GetPosition.steps..js:11"
+              "location": "dist/test/features/frame/steps/12-GetPosition.steps.js:11"
             },
             "result": {
               "status": "passed"
@@ -582,7 +581,7 @@
             "line": 67,
             "name": "Que quiero establecer el foco de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/13-SetFocus.steps..js:7"
+              "location": "dist/test/features/frame/steps/13-SetFocus.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -594,7 +593,7 @@
             "line": 68,
             "name": "LLame al método setFocus del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/13-SetFocus.steps..js:8"
+              "location": "dist/test/features/frame/steps/13-SetFocus.steps.js:8"
             },
             "result": {
               "status": "passed"
@@ -606,10 +605,11 @@
             "line": 69,
             "name": "El objecto Frame debe responder focus setted",
             "match": {
-              "location": "dist/test/features/frame/steps/13-SetFocus.steps..js:11"
+              "location": "dist/test/features/frame/steps/13-SetFocus.steps.js:11"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -628,7 +628,7 @@
             "line": 72,
             "name": "Que quiero establecer el color de fondo de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/14-SetBackgroundColor.steps..js:7"
+              "location": "dist/test/features/frame/steps/14-SetBackgroundColor.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -640,7 +640,7 @@
             "line": 73,
             "name": "LLame al método setBackgroundColor del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/14-SetBackgroundColor.steps..js:8"
+              "location": "dist/test/features/frame/steps/14-SetBackgroundColor.steps.js:8"
             },
             "result": {
               "status": "passed"
@@ -652,10 +652,11 @@
             "line": 74,
             "name": "El objecto Frame debe responder background color setted",
             "match": {
-              "location": "dist/test/features/frame/steps/14-SetBackgroundColor.steps..js:11"
+              "location": "dist/test/features/frame/steps/14-SetBackgroundColor.steps.js:11"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -674,7 +675,7 @@
             "line": 77,
             "name": "Que quiero establecer una imagen de fondo a un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/15-SetBackgroundImage.steps..js:7"
+              "location": "dist/test/features/frame/steps/15-SetBackgroundImage.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -686,11 +687,10 @@
             "line": 78,
             "name": "LLame al método setBackgroundImage del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/15-SetBackgroundImage.steps..js:8"
+              "location": "dist/test/features/frame/steps/15-SetBackgroundImage.steps.js:8"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -699,7 +699,7 @@
             "line": 79,
             "name": "El objecto Frame debe responder background image setted",
             "match": {
-              "location": "dist/test/features/frame/steps/15-SetBackgroundImage.steps..js:11"
+              "location": "dist/test/features/frame/steps/15-SetBackgroundImage.steps.js:11"
             },
             "result": {
               "status": "passed"
@@ -721,7 +721,7 @@
             "line": 82,
             "name": "Que quiero establecer la posicion de una imagen de fondo a un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/16-SetBackgroundPosition.steps..js:7"
+              "location": "dist/test/features/frame/steps/16-SetBackgroundPosition.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -733,7 +733,7 @@
             "line": 83,
             "name": "LLame al método setBackgroundPosition del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/16-SetBackgroundPosition.steps..js:8"
+              "location": "dist/test/features/frame/steps/16-SetBackgroundPosition.steps.js:8"
             },
             "result": {
               "status": "passed",
@@ -746,7 +746,7 @@
             "line": 84,
             "name": "El objecto Frame debe responder background position setted",
             "match": {
-              "location": "dist/test/features/frame/steps/16-SetBackgroundPosition.steps..js:11"
+              "location": "dist/test/features/frame/steps/16-SetBackgroundPosition.steps.js:11"
             },
             "result": {
               "status": "passed"
@@ -768,7 +768,7 @@
             "line": 87,
             "name": "Que quiero establecer las dimensiones de una imagen de fondo a un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/17-SetBackgroundSize.steps..js:7"
+              "location": "dist/test/features/frame/steps/17-SetBackgroundSize.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -780,11 +780,10 @@
             "line": 88,
             "name": "LLame al método setBackgroundSize del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/17-SetBackgroundSize.steps..js:8"
+              "location": "dist/test/features/frame/steps/17-SetBackgroundSize.steps.js:8"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -793,7 +792,7 @@
             "line": 89,
             "name": "El objecto Frame debe responder background size setted",
             "match": {
-              "location": "dist/test/features/frame/steps/17-SetBackgroundSize.steps..js:11"
+              "location": "dist/test/features/frame/steps/17-SetBackgroundSize.steps.js:11"
             },
             "result": {
               "status": "passed"
@@ -815,19 +814,7 @@
             "line": 92,
             "name": "Que quiero establecer el ancho del borde de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/18-SetBorderSize.steps..js:7"
-            },
-            "result": {
-              "status": "passed"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 93,
-            "name": "LLame al método setBorderSize del objeto Frame",
-            "match": {
-              "location": "dist/test/features/frame/steps/18-SetBorderSize.steps..js:8"
+              "location": "dist/test/features/frame/steps/18-SetBorderSize.steps.js:7"
             },
             "result": {
               "status": "passed",
@@ -836,11 +823,23 @@
           },
           {
             "arguments": [],
+            "keyword": "When ",
+            "line": 93,
+            "name": "LLame al método setBorderSize del objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/18-SetBorderSize.steps.js:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "Then ",
             "line": 94,
             "name": "El objecto Frame debe responder border size setted",
             "match": {
-              "location": "dist/test/features/frame/steps/18-SetBorderSize.steps..js:11"
+              "location": "dist/test/features/frame/steps/18-SetBorderSize.steps.js:11"
             },
             "result": {
               "status": "passed"
@@ -862,7 +861,7 @@
             "line": 97,
             "name": "Que quiero establecer la clase css de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/19-SetClass.steps..js:7"
+              "location": "dist/test/features/frame/steps/19-SetClass.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -874,7 +873,147 @@
             "line": 98,
             "name": "LLame al método setClass del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/19-SetClass.steps..js:8"
+              "location": "dist/test/features/frame/steps/19-SetClass.steps.js:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 99,
+            "name": "El objecto Frame debe responder class setted",
+            "match": {
+              "location": "dist/test/features/frame/steps/19-SetClass.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-frame;establecer-el-nodo-padre-de-un-objeto-frame",
+        "keyword": "Scenario",
+        "line": 101,
+        "name": "Establecer el nodo padre de un objeto Frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 102,
+            "name": "Que quiero establecer el nodo padre de un objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/20-SetParent.steps..js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 103,
+            "name": "LLame al método setParent del objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/20-SetParent.steps..js:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 104,
+            "name": "El objecto Frame debe responder parent setted",
+            "match": {
+              "location": "dist/test/features/frame/steps/20-SetParent.steps..js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-frame;establecer-color-de-fuente-de-un-objeto-frame",
+        "keyword": "Scenario",
+        "line": 106,
+        "name": "Establecer color de fuente de un objeto Frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 107,
+            "name": "Que quiero establecer el color de fuente un objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/21-SetColor.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 108,
+            "name": "LLame al método setColor del objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/21-SetColor.steps.js:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 109,
+            "name": "El objecto Frame debe responder color setted",
+            "match": {
+              "location": "dist/test/features/frame/steps/21-SetColor.steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-frame;establecer-el-tipo-de-cursor-de-un-objeto-frame",
+        "keyword": "Scenario",
+        "line": 111,
+        "name": "Establecer el tipo de cursor de un objeto Frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 112,
+            "name": "Que quiero establecer el tipo de cursor un objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/22-SetCursor.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 113,
+            "name": "LLame al método setCursor del objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/22-SetCursor.steps.js:8"
             },
             "result": {
               "status": "passed",
@@ -884,10 +1023,10 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 99,
-            "name": "El objecto Frame debe responder class setted",
+            "line": 114,
+            "name": "El objecto Frame debe responder cursor setted",
             "match": {
-              "location": "dist/test/features/frame/steps/19-SetClass.steps..js:11"
+              "location": "dist/test/features/frame/steps/22-SetCursor.steps.js:11"
             },
             "result": {
               "status": "passed"
@@ -896,194 +1035,9 @@
         ]
       },
       {
-        "id": "pruebas-del-objeto-frame;acceder-la-clase-css-de-un-objeto-frame",
-        "keyword": "Scenario",
-        "line": 101,
-        "name": "Acceder la clase css de un objeto Frame",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 102,
-            "name": "Que quiero acceder a la clase css de un objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 103,
-            "name": "LLame al método getClass del objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 104,
-            "name": "El objecto Frame debe responder el nombre de la clase css",
-            "result": {
-              "status": "undefined"
-            }
-          }
-        ]
-      },
-      {
-        "id": "pruebas-del-objeto-frame;establecer-el-nodo-padre-de-un-objeto-frame",
-        "keyword": "Scenario",
-        "line": 106,
-        "name": "Establecer el nodo padre de un objeto Frame",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 107,
-            "name": "Que quiero establecer el nodo padre de un objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 108,
-            "name": "LLame al método setParent del objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 109,
-            "name": "El objecto Frame debe responder parent setted",
-            "result": {
-              "status": "undefined"
-            }
-          }
-        ]
-      },
-      {
-        "id": "pruebas-del-objeto-frame;acceder-al-nodo-padre-de-un-objeto-frame",
-        "keyword": "Scenario",
-        "line": 111,
-        "name": "Acceder al nodo padre de un objeto Frame",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 112,
-            "name": "Que quiero acceder al nodo padre de un objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 113,
-            "name": "LLame al método getParent del objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 114,
-            "name": "El objecto Frame debe responder un objeto",
-            "result": {
-              "status": "undefined"
-            }
-          }
-        ]
-      },
-      {
-        "id": "pruebas-del-objeto-frame;establecer-color-de-fuente-de-un-objeto-frame",
-        "keyword": "Scenario",
-        "line": 116,
-        "name": "Establecer color de fuente de un objeto Frame",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 117,
-            "name": "Que quiero establecer el color de fuente un objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 118,
-            "name": "LLame al método setColor del objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 119,
-            "name": "El objecto Frame debe responder color setted",
-            "result": {
-              "status": "undefined"
-            }
-          }
-        ]
-      },
-      {
-        "id": "pruebas-del-objeto-frame;establecer-el-tipo-de-cursor-de-un-objeto-frame",
-        "keyword": "Scenario",
-        "line": 121,
-        "name": "Establecer el tipo de cursor de un objeto Frame",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 122,
-            "name": "Que quiero establecer el tipo de cursor un objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 123,
-            "name": "LLame al método setCursor del objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 124,
-            "name": "El objecto Frame debe responder cursor setted",
-            "result": {
-              "status": "undefined"
-            }
-          }
-        ]
-      },
-      {
         "id": "pruebas-del-objeto-frame;establecer-el-display-de-un-objeto-frame",
         "keyword": "Scenario",
-        "line": 126,
+        "line": 116,
         "name": "Establecer el display de un objeto Frame",
         "tags": [],
         "type": "scenario",
@@ -1091,102 +1045,37 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 127,
+            "line": 117,
             "name": "Que quiero establecer el display un objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/23-SetDisplay.steps.js:7"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 128,
+            "line": 118,
             "name": "LLame al método setDisplay del objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/23-SetDisplay.steps.js:8"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 129,
+            "line": 119,
             "name": "El objecto Frame debe responder display setted",
+            "match": {
+              "location": "dist/test/features/frame/steps/23-SetDisplay.steps.js:11"
+            },
             "result": {
-              "status": "undefined"
-            }
-          }
-        ]
-      },
-      {
-        "id": "pruebas-del-objeto-frame;acceder-al-display-de-un-objeto-frame",
-        "keyword": "Scenario",
-        "line": 131,
-        "name": "Acceder al display de un objeto Frame",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 132,
-            "name": "Que quiero acceder al display un objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 133,
-            "name": "LLame al método getDisplay del objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 134,
-            "name": "El objecto Frame debe responder con el tipo de display",
-            "result": {
-              "status": "undefined"
-            }
-          }
-        ]
-      },
-      {
-        "id": "pruebas-del-objeto-frame;acceder-al-tipo-de-fuente-de-un-objeto-frame",
-        "keyword": "Scenario",
-        "line": 136,
-        "name": "Acceder al tipo de fuente de un objeto Frame",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 137,
-            "name": "Que quiero acceder al tipo de fuente un objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 138,
-            "name": "LLame al método getFontFamily del objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 139,
-            "name": "El objecto Frame debe responder el nombre de fuente",
-            "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           }
         ]
@@ -1194,7 +1083,7 @@
       {
         "id": "pruebas-del-objeto-frame;establecer-el-tamaño-de-fuente-de-un-objeto-frame",
         "keyword": "Scenario",
-        "line": 141,
+        "line": 121,
         "name": "Establecer el tamaño de fuente de un objeto Frame",
         "tags": [],
         "type": "scenario",
@@ -1202,28 +1091,38 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 142,
+            "line": 122,
             "name": "Que quiero establecer la dimension de fuente de un objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/24-SetFontSize.steps.js:7"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 143,
+            "line": 123,
             "name": "LLame al método setFontSize del objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/24-SetFontSize.steps.js:8"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 144,
+            "line": 124,
             "name": "El objecto Frame debe responder font size setted",
+            "match": {
+              "location": "dist/test/features/frame/steps/24-SetFontSize.steps.js:11"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           }
         ]
@@ -1231,7 +1130,7 @@
       {
         "id": "pruebas-del-objeto-frame;establecer-la-negrilla-de-un-objeto-frame",
         "keyword": "Scenario",
-        "line": 146,
+        "line": 126,
         "name": "Establecer la negrilla de un objeto Frame",
         "tags": [],
         "type": "scenario",
@@ -1239,102 +1138,38 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 147,
+            "line": 127,
             "name": "Que quiero establecer la negrilla de un objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/25-SetFontWwight.steps.js:7"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 148,
+            "line": 128,
             "name": "LLame al método setFontWeight del objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/25-SetFontWwight.steps.js:8"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 149,
+            "line": 129,
             "name": "El objecto Frame debe responder font weight setted",
+            "match": {
+              "location": "dist/test/features/frame/steps/25-SetFontWwight.steps.js:11"
+            },
             "result": {
-              "status": "undefined"
-            }
-          }
-        ]
-      },
-      {
-        "id": "pruebas-del-objeto-frame;establecer-dimensiones-máximas-de-un-objeto-frame",
-        "keyword": "Scenario",
-        "line": 151,
-        "name": "Establecer dimensiones máximas de un objeto Frame",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 152,
-            "name": "Que quiero establecer las dimensiones maximas de un objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 153,
-            "name": "LLame al método setMaxSize del objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 154,
-            "name": "El objecto Frame debe responder max size setted",
-            "result": {
-              "status": "undefined"
-            }
-          }
-        ]
-      },
-      {
-        "id": "pruebas-del-objeto-frame;establecer-dimensiones-minimas-de-un-objeto-frame",
-        "keyword": "Scenario",
-        "line": 156,
-        "name": "Establecer dimensiones minimas de un objeto Frame",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 157,
-            "name": "Que quiero establecer las dimensiones minimas de un objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 158,
-            "name": "LLame al método setMinSize del objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 159,
-            "name": "El objecto Frame debe responder min size setted",
-            "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -1342,7 +1177,7 @@
       {
         "id": "pruebas-del-objeto-frame;establecer-los-margenes-de-un-objeto-frame",
         "keyword": "Scenario",
-        "line": 161,
+        "line": 131,
         "name": "Establecer los margenes de un objeto Frame",
         "tags": [],
         "type": "scenario",
@@ -1350,65 +1185,39 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 162,
+            "line": 132,
             "name": "Que quiero establecer los margenes de un objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/26-SetMargin.steps.js:7"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 163,
+            "line": 133,
             "name": "LLame al método setMargin del objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/26-SetMargin.steps.js:8"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 164,
+            "line": 134,
             "name": "El objecto Frame debe responder margin setted",
+            "match": {
+              "location": "dist/test/features/frame/steps/26-SetMargin.steps.js:11"
+            },
             "result": {
-              "status": "undefined"
-            }
-          }
-        ]
-      },
-      {
-        "id": "pruebas-del-objeto-frame;acceder-a-los-margenes-de-un-objeto-frame",
-        "keyword": "Scenario",
-        "line": 166,
-        "name": "Acceder a los margenes de un objeto Frame",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 167,
-            "name": "Que quiero acceder a los margenes de un objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 168,
-            "name": "LLame al método getMargin del objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 169,
-            "name": "El objecto Frame debe responder el valor del margen",
-            "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -1416,7 +1225,7 @@
       {
         "id": "pruebas-del-objeto-frame;establecer-el-padding-de-un-objeto-frame",
         "keyword": "Scenario",
-        "line": 171,
+        "line": 136,
         "name": "Establecer el padding de un objeto Frame",
         "tags": [],
         "type": "scenario",
@@ -1424,65 +1233,38 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 172,
+            "line": 137,
             "name": "Que quiero establecer el padding de un objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/27-SetPadding.steps.js:7"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 173,
+            "line": 138,
             "name": "LLame al método setPadding del objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/27-SetPadding.steps.js:8"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 174,
+            "line": 139,
             "name": "El objecto Frame debe responder padding setted",
+            "match": {
+              "location": "dist/test/features/frame/steps/27-SetPadding.steps.js:11"
+            },
             "result": {
-              "status": "undefined"
-            }
-          }
-        ]
-      },
-      {
-        "id": "pruebas-del-objeto-frame;acceder-al-padding-de-un-objeto-frame",
-        "keyword": "Scenario",
-        "line": 176,
-        "name": "Acceder al padding de un objeto Frame",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 177,
-            "name": "Que quiero acceder al padding de un objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 178,
-            "name": "LLame al método getPadding del objeto Frame",
-            "result": {
-              "status": "undefined"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 179,
-            "name": "El objecto Frame debe responder el valor del padding",
-            "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           }
         ]
@@ -1490,7 +1272,7 @@
       {
         "id": "pruebas-del-objeto-frame;establecer-la-opacidad-de-un-objeto-frame",
         "keyword": "Scenario",
-        "line": 181,
+        "line": 141,
         "name": "Establecer la opacidad de un objeto Frame",
         "tags": [],
         "type": "scenario",
@@ -1498,28 +1280,38 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 182,
+            "line": 142,
             "name": "Que quiero establecer la opacidad de un objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/28-SetOpacity.steps.js:7"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 183,
+            "line": 143,
             "name": "LLame al método setOpacity del objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/28-SetOpacity.steps.js:8"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 184,
+            "line": 144,
             "name": "El objecto Frame debe responder opacity setted",
+            "match": {
+              "location": "dist/test/features/frame/steps/28-SetOpacity.steps.js:11"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           }
         ]
@@ -1527,7 +1319,7 @@
       {
         "id": "pruebas-del-objeto-frame;establecer-si-el-objeto-frame-es-seleccionable",
         "keyword": "Scenario",
-        "line": 186,
+        "line": 146,
         "name": "Establecer si el objeto Frame es seleccionable",
         "tags": [],
         "type": "scenario",
@@ -1535,28 +1327,37 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 187,
+            "line": 147,
             "name": "Que quiero establecer que un objeto Frame es seleccionable",
+            "match": {
+              "location": "dist/test/features/frame/steps/29-SetSelectable.steps.js:7"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 188,
-            "name": "LLame al método setSelect del objeto Frame",
+            "line": 148,
+            "name": "LLame al método setSelectable del objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/29-SetSelectable.steps.js:8"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 189,
+            "line": 149,
             "name": "El objecto Frame debe responder selectable setted",
+            "match": {
+              "location": "dist/test/features/frame/steps/29-SetSelectable.steps.js:11"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           }
         ]
@@ -1564,7 +1365,7 @@
       {
         "id": "pruebas-del-objeto-frame;establecer-la-alineación-vertical-del-objeto-frame",
         "keyword": "Scenario",
-        "line": 191,
+        "line": 151,
         "name": "Establecer la alineación vertical del objeto Frame",
         "tags": [],
         "type": "scenario",
@@ -1572,28 +1373,37 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 192,
+            "line": 152,
             "name": "Que quiero establecer la alineacion vertical de un objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/30-SetVAlign.steps.js:7"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 193,
+            "line": 153,
             "name": "LLame al método setVAlign del objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/30-SetVAlign.steps.js:8"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 194,
+            "line": 154,
             "name": "El objecto Frame debe responder vertical align setted",
+            "match": {
+              "location": "dist/test/features/frame/steps/30-SetVAlign.steps.js:11"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           }
         ]
@@ -1601,7 +1411,7 @@
       {
         "id": "pruebas-del-objeto-frame;establecer-la-visibilidad-del-objeto-frame",
         "keyword": "Scenario",
-        "line": 196,
+        "line": 156,
         "name": "Establecer la visibilidad del objeto Frame",
         "tags": [],
         "type": "scenario",
@@ -1609,28 +1419,37 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 197,
+            "line": 157,
             "name": "Que quiero establecer la visibilidad de un objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/31-SetVisibility.steps.js:7"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 198,
+            "line": 158,
             "name": "LLame al método setVisibility del objeto Frame",
+            "match": {
+              "location": "dist/test/features/frame/steps/31-SetVisibility.steps.js:8"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 199,
+            "line": 159,
             "name": "El objecto Frame debe responder visibility setted",
+            "match": {
+              "location": "dist/test/features/frame/steps/31-SetVisibility.steps.js:11"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed"
             }
           }
         ]

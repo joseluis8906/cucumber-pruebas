@@ -71,4 +71,52 @@ export class Frame {
     public setClass(cssClass: string): string {
         return "class setted";
     }
+
+    public setParent(parent: Object): string {
+        return "parent setted";
+    }
+
+    public setColor(color: string): string {
+        return "color setted";
+    }
+
+    public setCursor(cursor: string): string {
+        return "cursor setted";
+    }
+
+    public setDisplay(display: string): string {
+        return "display setted";
+    }
+
+    public setFontSize(size: number): string {
+        return "font size setted";
+    }
+
+    public setFontWeight(weight: string): string {
+        return "font weight setted";
+    }
+
+    public setMargin(margin: number): string {
+        return "margin setted";
+    }
+
+    public setPadding(margin: number): string {
+        return "padding setted";
+    }
+
+    public setOpacity(opacity: number): string {
+        return "opacity setted";
+    }
+
+    public setSelectable(selectable: boolean): string {
+        return "selectable setted";
+    }
+
+    public setVAlign(valign: string): string {
+        return "vertical align setted";
+    }
+
+    public setVisibility(visibility: number): string {
+        return "visibility setted";
+    }
 }

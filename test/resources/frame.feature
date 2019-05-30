@@ -97,21 +97,11 @@ Feature: Pruebas del objeto Frame
     Given Que quiero establecer la clase css de un objeto Frame
     When LLame al método setClass del objeto Frame
     Then El objecto Frame debe responder class setted
-
-  Scenario: Acceder la clase css de un objeto Frame
-    Given Que quiero acceder a la clase css de un objeto Frame
-    When LLame al método getClass del objeto Frame
-    Then El objecto Frame debe responder el nombre de la clase css
-
+  
   Scenario: Establecer el nodo padre de un objeto Frame
     Given Que quiero establecer el nodo padre de un objeto Frame
     When LLame al método setParent del objeto Frame
     Then El objecto Frame debe responder parent setted
-
-  Scenario: Acceder al nodo padre de un objeto Frame
-    Given Que quiero acceder al nodo padre de un objeto Frame
-    When LLame al método getParent del objeto Frame
-    Then El objecto Frame debe responder un objeto
 
   Scenario: Establecer color de fuente de un objeto Frame
     Given Que quiero establecer el color de fuente un objeto Frame
@@ -128,16 +118,6 @@ Feature: Pruebas del objeto Frame
     When LLame al método setDisplay del objeto Frame
     Then El objecto Frame debe responder display setted
 
-  Scenario: Acceder al display de un objeto Frame
-    Given Que quiero acceder al display un objeto Frame
-    When LLame al método getDisplay del objeto Frame
-    Then El objecto Frame debe responder con el tipo de display
-
-  Scenario: Acceder al tipo de fuente de un objeto Frame
-    Given Que quiero acceder al tipo de fuente un objeto Frame
-    When LLame al método getFontFamily del objeto Frame
-    Then El objecto Frame debe responder el nombre de fuente
-
   Scenario: Establecer el tamaño de fuente de un objeto Frame
     Given Que quiero establecer la dimension de fuente de un objeto Frame
     When LLame al método setFontSize del objeto Frame
@@ -148,35 +128,15 @@ Feature: Pruebas del objeto Frame
     When LLame al método setFontWeight del objeto Frame
     Then El objecto Frame debe responder font weight setted
 
-  Scenario: Establecer dimensiones máximas de un objeto Frame
-    Given Que quiero establecer las dimensiones maximas de un objeto Frame
-    When LLame al método setMaxSize del objeto Frame
-    Then El objecto Frame debe responder max size setted
-
-  Scenario: Establecer dimensiones minimas de un objeto Frame
-    Given Que quiero establecer las dimensiones minimas de un objeto Frame
-    When LLame al método setMinSize del objeto Frame
-    Then El objecto Frame debe responder min size setted
-
   Scenario: Establecer los margenes de un objeto Frame
     Given Que quiero establecer los margenes de un objeto Frame
     When LLame al método setMargin del objeto Frame
     Then El objecto Frame debe responder margin setted
 
-  Scenario: Acceder a los margenes de un objeto Frame
-    Given Que quiero acceder a los margenes de un objeto Frame
-    When LLame al método getMargin del objeto Frame
-    Then El objecto Frame debe responder el valor del margen
-
   Scenario: Establecer el padding de un objeto Frame
     Given Que quiero establecer el padding de un objeto Frame
     When LLame al método setPadding del objeto Frame
     Then El objecto Frame debe responder padding setted
-
-  Scenario: Acceder al padding de un objeto Frame
-    Given Que quiero acceder al padding de un objeto Frame
-    When LLame al método getPadding del objeto Frame
-    Then El objecto Frame debe responder el valor del padding
 
   Scenario: Establecer la opacidad de un objeto Frame
     Given Que quiero establecer la opacidad de un objeto Frame
@@ -185,7 +145,7 @@ Feature: Pruebas del objeto Frame
 
   Scenario: Establecer si el objeto Frame es seleccionable
     Given Que quiero establecer que un objeto Frame es seleccionable
-    When LLame al método setSelect del objeto Frame
+    When LLame al método setSelectable del objeto Frame
     Then El objecto Frame debe responder selectable setted
 
   Scenario: Establecer la alineación vertical del objeto Frame
