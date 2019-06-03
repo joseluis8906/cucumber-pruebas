@@ -6,7 +6,7 @@
     "line": 1,
     "id": "pruebas-del-objeto-frame",
     "tags": [],
-    "uri": "test/resources/frame.feature",
+    "uri": "test/resources/01-frame.feature",
     "elements": [
       {
         "id": "pruebas-del-objeto-frame;creación-de-un-objeto-frame",
@@ -22,7 +22,7 @@
             "line": 7,
             "name": "Que quiero crear un objeto de tipo Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/01-Creation.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/01-Creation.steps.js:6"
             },
             "result": {
               "status": "passed",
@@ -35,7 +35,7 @@
             "line": 8,
             "name": "LLame al constructor de la clase Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/01-Creation.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/01-Creation.steps.js:7"
             },
             "result": {
               "status": "passed",
@@ -48,10 +48,11 @@
             "line": 9,
             "name": "La instancia creada debe ser de tipo Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/01-Creation.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/01-Creation.steps.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -70,7 +71,7 @@
             "line": 12,
             "name": "Que quiero agregar controles a objetos Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/02-AddChild.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/02-AddChild.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -82,10 +83,11 @@
             "line": 13,
             "name": "LLame al método addChild del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/02-AddChild.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/02-AddChild.steps.js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -94,7 +96,7 @@
             "line": 14,
             "name": "El objecto Frame debe responder child added",
             "match": {
-              "location": "dist/test/features/frame/steps/02-AddChild.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/02-AddChild.steps.js:10"
             },
             "result": {
               "status": "passed"
@@ -116,7 +118,7 @@
             "line": 17,
             "name": "Que quiero acceder a los controles de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/03-AccessToChilds.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/03-AccessToChilds.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -128,7 +130,7 @@
             "line": 18,
             "name": "LLame al método getChilds del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/03-AccessToChilds.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/03-AccessToChilds.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -140,7 +142,7 @@
             "line": 19,
             "name": "El objecto Frame debe responder con un array de objetos",
             "match": {
-              "location": "dist/test/features/frame/steps/03-AccessToChilds.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/03-AccessToChilds.steps.js:10"
             },
             "result": {
               "status": "passed",
@@ -163,7 +165,7 @@
             "line": 22,
             "name": "Que quiero agregar manejadores de eventos a un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/04-AddEventHandler.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/04-AddEventHandler.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -175,7 +177,7 @@
             "line": 23,
             "name": "LLame al método addEvent del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/04-AddEventHandler.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/04-AddEventHandler.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -187,7 +189,7 @@
             "line": 24,
             "name": "El objecto Frame debe responder handler added",
             "match": {
-              "location": "dist/test/features/frame/steps/04-AddEventHandler.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/04-AddEventHandler.steps.js:10"
             },
             "result": {
               "status": "passed"
@@ -209,10 +211,11 @@
             "line": 27,
             "name": "Que quiero eliminar manejadores de eventos de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/05-RemoveEventHandler.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/05-RemoveEventHandler.steps.js:6"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -221,7 +224,7 @@
             "line": 28,
             "name": "LLame al método removeEvent del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/05-RemoveEventHandler.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/05-RemoveEventHandler.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -233,7 +236,7 @@
             "line": 29,
             "name": "El objecto Frame debe responder handler removed",
             "match": {
-              "location": "dist/test/features/frame/steps/05-RemoveEventHandler.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/05-RemoveEventHandler.steps.js:10"
             },
             "result": {
               "status": "passed",
@@ -256,11 +259,10 @@
             "line": 32,
             "name": "Que quiero establecer el elemento html a un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/06-SetHtml.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/06-SetHtml.steps.js:6"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -269,7 +271,7 @@
             "line": 33,
             "name": "LLame al método setHtml del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/06-SetHtml.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/06-SetHtml.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -281,10 +283,11 @@
             "line": 34,
             "name": "El objecto Frame debe responder html setted",
             "match": {
-              "location": "dist/test/features/frame/steps/06-SetHtml.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/06-SetHtml.steps.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -303,7 +306,7 @@
             "line": 37,
             "name": "Que quiero establecer el nivel de profundidad de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/07-SetZIndex.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/07-SetZIndex.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -315,11 +318,10 @@
             "line": 38,
             "name": "LLame al método setZIndex del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/07-SetZIndex.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/07-SetZIndex.steps.js:7"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -328,7 +330,7 @@
             "line": 39,
             "name": "El objecto Frame debe responder z-index setted",
             "match": {
-              "location": "dist/test/features/frame/steps/07-SetZIndex.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/07-SetZIndex.steps.js:10"
             },
             "result": {
               "status": "passed"
@@ -350,7 +352,7 @@
             "line": 42,
             "name": "Que quiero establecer las dimensiones de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/08-SetDimensions.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/08-SetDimensions.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -362,7 +364,7 @@
             "line": 43,
             "name": "LLame al método setSize del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/08-SetDimensions.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/08-SetDimensions.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -374,10 +376,11 @@
             "line": 44,
             "name": "El objecto Frame debe responder dimension setted",
             "match": {
-              "location": "dist/test/features/frame/steps/08-SetDimensions.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/08-SetDimensions.steps.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -396,7 +399,7 @@
             "line": 47,
             "name": "Que quiero acceder a las dimensiones de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/09-GetDimensions.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/09-GetDimensions.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -408,7 +411,7 @@
             "line": 48,
             "name": "LLame al método getSize del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/09-GetDimensions.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/09-GetDimensions.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -420,7 +423,7 @@
             "line": 49,
             "name": "El objecto Frame debe responder una tupla ancho y alto",
             "match": {
-              "location": "dist/test/features/frame/steps/09-GetDimensions.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/09-GetDimensions.steps.js:10"
             },
             "result": {
               "status": "passed",
@@ -443,7 +446,7 @@
             "line": 52,
             "name": "Que quiero acceder al elemento html de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/10-GetHtml.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/10-GetHtml.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -455,7 +458,7 @@
             "line": 53,
             "name": "LLame al método getHtml del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/10-GetHtml.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/10-GetHtml.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -467,10 +470,11 @@
             "line": 54,
             "name": "El objecto Frame debe responder un elemento html",
             "match": {
-              "location": "dist/test/features/frame/steps/10-GetHtml.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/10-GetHtml.steps.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -489,7 +493,7 @@
             "line": 57,
             "name": "Que quiero establecer la posición de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/11-SetPosition.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/11-SetPosition.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -501,7 +505,7 @@
             "line": 58,
             "name": "LLame al método setPosition del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/11-SetPosition.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/11-SetPosition.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -513,7 +517,7 @@
             "line": 59,
             "name": "El objecto Frame debe responder position setted",
             "match": {
-              "location": "dist/test/features/frame/steps/11-SetPosition.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/11-SetPosition.steps.js:10"
             },
             "result": {
               "status": "passed"
@@ -535,7 +539,7 @@
             "line": 62,
             "name": "Que quiero acceder la posición de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/12-GetPosition.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/12-GetPosition.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -547,7 +551,7 @@
             "line": 63,
             "name": "LLame al método getPosition del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/12-GetPosition.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/12-GetPosition.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -559,10 +563,11 @@
             "line": 64,
             "name": "El objecto Frame debe responder una tupla con X y Y",
             "match": {
-              "location": "dist/test/features/frame/steps/12-GetPosition.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/12-GetPosition.steps.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -581,10 +586,11 @@
             "line": 67,
             "name": "Que quiero establecer el foco de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/13-SetFocus.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/13-SetFocus.steps.js:6"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -593,7 +599,7 @@
             "line": 68,
             "name": "LLame al método setFocus del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/13-SetFocus.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/13-SetFocus.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -605,11 +611,10 @@
             "line": 69,
             "name": "El objecto Frame debe responder focus setted",
             "match": {
-              "location": "dist/test/features/frame/steps/13-SetFocus.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/13-SetFocus.steps.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -628,7 +633,7 @@
             "line": 72,
             "name": "Que quiero establecer el color de fondo de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/14-SetBackgroundColor.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/14-SetBackgroundColor.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -640,7 +645,7 @@
             "line": 73,
             "name": "LLame al método setBackgroundColor del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/14-SetBackgroundColor.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/14-SetBackgroundColor.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -652,11 +657,10 @@
             "line": 74,
             "name": "El objecto Frame debe responder background color setted",
             "match": {
-              "location": "dist/test/features/frame/steps/14-SetBackgroundColor.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/14-SetBackgroundColor.steps.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -675,7 +679,7 @@
             "line": 77,
             "name": "Que quiero establecer una imagen de fondo a un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/15-SetBackgroundImage.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/15-SetBackgroundImage.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -687,7 +691,7 @@
             "line": 78,
             "name": "LLame al método setBackgroundImage del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/15-SetBackgroundImage.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/15-SetBackgroundImage.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -699,7 +703,7 @@
             "line": 79,
             "name": "El objecto Frame debe responder background image setted",
             "match": {
-              "location": "dist/test/features/frame/steps/15-SetBackgroundImage.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/15-SetBackgroundImage.steps.js:10"
             },
             "result": {
               "status": "passed"
@@ -721,7 +725,7 @@
             "line": 82,
             "name": "Que quiero establecer la posicion de una imagen de fondo a un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/16-SetBackgroundPosition.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/16-SetBackgroundPosition.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -733,11 +737,10 @@
             "line": 83,
             "name": "LLame al método setBackgroundPosition del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/16-SetBackgroundPosition.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/16-SetBackgroundPosition.steps.js:7"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -746,10 +749,11 @@
             "line": 84,
             "name": "El objecto Frame debe responder background position setted",
             "match": {
-              "location": "dist/test/features/frame/steps/16-SetBackgroundPosition.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/16-SetBackgroundPosition.steps.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -768,7 +772,7 @@
             "line": 87,
             "name": "Que quiero establecer las dimensiones de una imagen de fondo a un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/17-SetBackgroundSize.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/17-SetBackgroundSize.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -780,10 +784,11 @@
             "line": 88,
             "name": "LLame al método setBackgroundSize del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/17-SetBackgroundSize.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/17-SetBackgroundSize.steps.js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -792,7 +797,7 @@
             "line": 89,
             "name": "El objecto Frame debe responder background size setted",
             "match": {
-              "location": "dist/test/features/frame/steps/17-SetBackgroundSize.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/17-SetBackgroundSize.steps.js:10"
             },
             "result": {
               "status": "passed"
@@ -814,11 +819,10 @@
             "line": 92,
             "name": "Que quiero establecer el ancho del borde de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/18-SetBorderSize.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/18-SetBorderSize.steps.js:6"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -827,7 +831,7 @@
             "line": 93,
             "name": "LLame al método setBorderSize del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/18-SetBorderSize.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/18-SetBorderSize.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -839,10 +843,11 @@
             "line": 94,
             "name": "El objecto Frame debe responder border size setted",
             "match": {
-              "location": "dist/test/features/frame/steps/18-SetBorderSize.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/18-SetBorderSize.steps.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -861,7 +866,7 @@
             "line": 97,
             "name": "Que quiero establecer la clase css de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/19-SetClass.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/19-SetClass.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -873,7 +878,7 @@
             "line": 98,
             "name": "LLame al método setClass del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/19-SetClass.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/19-SetClass.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -885,11 +890,10 @@
             "line": 99,
             "name": "El objecto Frame debe responder class setted",
             "match": {
-              "location": "dist/test/features/frame/steps/19-SetClass.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/19-SetClass.steps.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -908,7 +912,7 @@
             "line": 102,
             "name": "Que quiero establecer el nodo padre de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/20-SetParent.steps..js:7"
+              "location": "dist/test/features/01-frame/steps/20-SetParent.steps..js:6"
             },
             "result": {
               "status": "passed"
@@ -920,7 +924,7 @@
             "line": 103,
             "name": "LLame al método setParent del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/20-SetParent.steps..js:8"
+              "location": "dist/test/features/01-frame/steps/20-SetParent.steps..js:7"
             },
             "result": {
               "status": "passed"
@@ -932,7 +936,7 @@
             "line": 104,
             "name": "El objecto Frame debe responder parent setted",
             "match": {
-              "location": "dist/test/features/frame/steps/20-SetParent.steps..js:11"
+              "location": "dist/test/features/01-frame/steps/20-SetParent.steps..js:10"
             },
             "result": {
               "status": "passed",
@@ -955,7 +959,7 @@
             "line": 107,
             "name": "Que quiero establecer el color de fuente un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/21-SetColor.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/21-SetColor.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -967,10 +971,11 @@
             "line": 108,
             "name": "LLame al método setColor del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/21-SetColor.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/21-SetColor.steps.js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -979,7 +984,7 @@
             "line": 109,
             "name": "El objecto Frame debe responder color setted",
             "match": {
-              "location": "dist/test/features/frame/steps/21-SetColor.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/21-SetColor.steps.js:10"
             },
             "result": {
               "status": "passed"
@@ -1001,19 +1006,7 @@
             "line": 112,
             "name": "Que quiero establecer el tipo de cursor un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/22-SetCursor.steps.js:7"
-            },
-            "result": {
-              "status": "passed"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 113,
-            "name": "LLame al método setCursor del objeto Frame",
-            "match": {
-              "location": "dist/test/features/frame/steps/22-SetCursor.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/22-SetCursor.steps.js:6"
             },
             "result": {
               "status": "passed",
@@ -1022,11 +1015,23 @@
           },
           {
             "arguments": [],
+            "keyword": "When ",
+            "line": 113,
+            "name": "LLame al método setCursor del objeto Frame",
+            "match": {
+              "location": "dist/test/features/01-frame/steps/22-SetCursor.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "Then ",
             "line": 114,
             "name": "El objecto Frame debe responder cursor setted",
             "match": {
-              "location": "dist/test/features/frame/steps/22-SetCursor.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/22-SetCursor.steps.js:10"
             },
             "result": {
               "status": "passed"
@@ -1048,7 +1053,7 @@
             "line": 117,
             "name": "Que quiero establecer el display un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/23-SetDisplay.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/23-SetDisplay.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -1060,7 +1065,7 @@
             "line": 118,
             "name": "LLame al método setDisplay del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/23-SetDisplay.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/23-SetDisplay.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -1072,10 +1077,11 @@
             "line": 119,
             "name": "El objecto Frame debe responder display setted",
             "match": {
-              "location": "dist/test/features/frame/steps/23-SetDisplay.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/23-SetDisplay.steps.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -1094,11 +1100,10 @@
             "line": 122,
             "name": "Que quiero establecer la dimension de fuente de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/24-SetFontSize.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/24-SetFontSize.steps.js:6"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -1107,10 +1112,11 @@
             "line": 123,
             "name": "LLame al método setFontSize del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/24-SetFontSize.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/24-SetFontSize.steps.js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -1119,7 +1125,7 @@
             "line": 124,
             "name": "El objecto Frame debe responder font size setted",
             "match": {
-              "location": "dist/test/features/frame/steps/24-SetFontSize.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/24-SetFontSize.steps.js:10"
             },
             "result": {
               "status": "passed"
@@ -1141,7 +1147,7 @@
             "line": 127,
             "name": "Que quiero establecer la negrilla de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/25-SetFontWwight.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/25-SetFontWwight.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -1153,7 +1159,7 @@
             "line": 128,
             "name": "LLame al método setFontWeight del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/25-SetFontWwight.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/25-SetFontWwight.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -1165,11 +1171,10 @@
             "line": 129,
             "name": "El objecto Frame debe responder font weight setted",
             "match": {
-              "location": "dist/test/features/frame/steps/25-SetFontWwight.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/25-SetFontWwight.steps.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -1188,7 +1193,7 @@
             "line": 132,
             "name": "Que quiero establecer los margenes de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/26-SetMargin.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/26-SetMargin.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -1200,11 +1205,10 @@
             "line": 133,
             "name": "LLame al método setMargin del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/26-SetMargin.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/26-SetMargin.steps.js:7"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -1213,11 +1217,10 @@
             "line": 134,
             "name": "El objecto Frame debe responder margin setted",
             "match": {
-              "location": "dist/test/features/frame/steps/26-SetMargin.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/26-SetMargin.steps.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -1236,7 +1239,7 @@
             "line": 137,
             "name": "Que quiero establecer el padding de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/27-SetPadding.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/27-SetPadding.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -1248,11 +1251,10 @@
             "line": 138,
             "name": "LLame al método setPadding del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/27-SetPadding.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/27-SetPadding.steps.js:7"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -1261,7 +1263,7 @@
             "line": 139,
             "name": "El objecto Frame debe responder padding setted",
             "match": {
-              "location": "dist/test/features/frame/steps/27-SetPadding.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/27-SetPadding.steps.js:10"
             },
             "result": {
               "status": "passed"
@@ -1283,7 +1285,7 @@
             "line": 142,
             "name": "Que quiero establecer la opacidad de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/28-SetOpacity.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/28-SetOpacity.steps.js:6"
             },
             "result": {
               "status": "passed",
@@ -1296,7 +1298,7 @@
             "line": 143,
             "name": "LLame al método setOpacity del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/28-SetOpacity.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/28-SetOpacity.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -1308,7 +1310,7 @@
             "line": 144,
             "name": "El objecto Frame debe responder opacity setted",
             "match": {
-              "location": "dist/test/features/frame/steps/28-SetOpacity.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/28-SetOpacity.steps.js:10"
             },
             "result": {
               "status": "passed"
@@ -1330,7 +1332,7 @@
             "line": 147,
             "name": "Que quiero establecer que un objeto Frame es seleccionable",
             "match": {
-              "location": "dist/test/features/frame/steps/29-SetSelectable.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/29-SetSelectable.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -1342,7 +1344,7 @@
             "line": 148,
             "name": "LLame al método setSelectable del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/29-SetSelectable.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/29-SetSelectable.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -1354,7 +1356,7 @@
             "line": 149,
             "name": "El objecto Frame debe responder selectable setted",
             "match": {
-              "location": "dist/test/features/frame/steps/29-SetSelectable.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/29-SetSelectable.steps.js:10"
             },
             "result": {
               "status": "passed"
@@ -1376,10 +1378,11 @@
             "line": 152,
             "name": "Que quiero establecer la alineacion vertical de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/30-SetVAlign.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/30-SetVAlign.steps.js:6"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -1388,7 +1391,7 @@
             "line": 153,
             "name": "LLame al método setVAlign del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/30-SetVAlign.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/30-SetVAlign.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -1400,7 +1403,7 @@
             "line": 154,
             "name": "El objecto Frame debe responder vertical align setted",
             "match": {
-              "location": "dist/test/features/frame/steps/30-SetVAlign.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/30-SetVAlign.steps.js:10"
             },
             "result": {
               "status": "passed"
@@ -1422,7 +1425,7 @@
             "line": 157,
             "name": "Que quiero establecer la visibilidad de un objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/31-SetVisibility.steps.js:7"
+              "location": "dist/test/features/01-frame/steps/31-SetVisibility.steps.js:6"
             },
             "result": {
               "status": "passed"
@@ -1434,7 +1437,7 @@
             "line": 158,
             "name": "LLame al método setVisibility del objeto Frame",
             "match": {
-              "location": "dist/test/features/frame/steps/31-SetVisibility.steps.js:8"
+              "location": "dist/test/features/01-frame/steps/31-SetVisibility.steps.js:7"
             },
             "result": {
               "status": "passed"
@@ -1446,7 +1449,785 @@
             "line": 159,
             "name": "El objecto Frame debe responder visibility setted",
             "match": {
-              "location": "dist/test/features/frame/steps/31-SetVisibility.steps.js:11"
+              "location": "dist/test/features/01-frame/steps/31-SetVisibility.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  Con el fin de comprobar el comportamiento del objeto Window\n  se hacen llamados a funciones para verificar el estado interno\n  de los mismos.",
+    "keyword": "Feature",
+    "name": "Pruebas del objeto Window",
+    "line": 1,
+    "id": "pruebas-del-objeto-window",
+    "tags": [],
+    "uri": "test/resources/02-window.feature",
+    "elements": [
+      {
+        "id": "pruebas-del-objeto-window;heredar-de-un-objeto-frame",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Heredar de un objeto Frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Que Window debe heredar de tipo Frame",
+            "match": {
+              "location": "dist/test/features/02-window/steps/01-HeredarObjetoFrame.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "LLame al constructor de la clase Window",
+            "match": {
+              "location": "dist/test/features/02-window/steps/01-HeredarObjetoFrame.steps.js:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "La instancia creada debe ser de tipo Window y Frame",
+            "match": {
+              "location": "dist/test/features/02-window/steps/01-HeredarObjetoFrame.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-window;abrir-instancias-con-el-método-open",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Abrir instancias con el método open",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Que quiero crear instancias de tipo Window",
+            "match": {
+              "location": "dist/test/features/02-window/steps/02-OpenInstance.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "LLame al método open de la clase Window",
+            "match": {
+              "location": "dist/test/features/02-window/steps/02-OpenInstance.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "El objeto Window debe responder opened",
+            "match": {
+              "location": "dist/test/features/02-window/steps/02-OpenInstance.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-window;cerrar-instancias-con-el-método-close",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Cerrar instancias con el método close",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Que quiero poder cerrar un instancia de tipo Window",
+            "match": {
+              "location": "dist/test/features/02-window/steps/03-CloseInstance.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "LLame al método close de la clase Window",
+            "match": {
+              "location": "dist/test/features/02-window/steps/03-CloseInstance.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "El objeto Window debe responder closed",
+            "match": {
+              "location": "dist/test/features/02-window/steps/03-CloseInstance.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-window;establecer-barra-de-menú",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Establecer barra de menú",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "Que quiero establecer un menú a instancias de tipo Window",
+            "match": {
+              "location": "dist/test/features/02-window/steps/04-EstablecerBarraMenu.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "LLame al método enableMenu de la clase Window",
+            "match": {
+              "location": "dist/test/features/02-window/steps/04-EstablecerBarraMenu.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "El objeto Window debe responder menu enabled",
+            "match": {
+              "location": "dist/test/features/02-window/steps/04-EstablecerBarraMenu.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-window;establecer-barra-de-titulo",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Establecer barra de titulo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "Que quiero establecer una barra de titulo a objetos de tipo Window",
+            "match": {
+              "location": "dist/test/features/02-window/steps/05-EstablecerTitleBar.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "LLame al método enableTitleBar de la clase Window",
+            "match": {
+              "location": "dist/test/features/02-window/steps/05-EstablecerTitleBar.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "El objeto Window debe responder title bar enabled",
+            "match": {
+              "location": "dist/test/features/02-window/steps/05-EstablecerTitleBar.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-window;establecer-layout",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Establecer layout",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "Que quiero establecer un contenedor layout a instancias de tipo Window",
+            "match": {
+              "location": "dist/test/features/02-window/steps/06-EstablecerLayout.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "LLame al método setLayout de la clase Window",
+            "match": {
+              "location": "dist/test/features/02-window/steps/06-EstablecerLayout.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "El objeto Window debe responder layout setted",
+            "match": {
+              "location": "dist/test/features/02-window/steps/06-EstablecerLayout.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  Con el fin de comprobar el comportamiento del objeto Box\n  se hacen llamados a funciones para verificar el estado interno\n  de los mismos.",
+    "keyword": "Feature",
+    "name": "Pruebas del objeto Box",
+    "line": 1,
+    "id": "pruebas-del-objeto-box",
+    "tags": [],
+    "uri": "test/resources/03-box.feature",
+    "elements": [
+      {
+        "id": "pruebas-del-objeto-box;heredar-de-un-objeto-frame",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Heredar de un objeto Frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Que Box debe heredar de tipo Frame",
+            "match": {
+              "location": "dist/test/features/03-box/steps/01-HeredarObjetoFrame.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "LLame al constructor de la clase Box",
+            "match": {
+              "location": "dist/test/features/03-box/steps/01-HeredarObjetoFrame.steps.js:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "La instancia creada debe ser de tipo Box y Frame",
+            "match": {
+              "location": "dist/test/features/03-box/steps/01-HeredarObjetoFrame.steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-box;establecer-margen-de-controles-hijo",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Establecer margen de controles hijo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Que quiero establcer margenes a controles hijos del objeto Box",
+            "match": {
+              "location": "dist/test/features/03-box/steps/02-ChildsMargin.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "LLame al método setBorderWidth de la clase Box",
+            "match": {
+              "location": "dist/test/features/03-box/steps/02-ChildsMargin.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "El objeto box debe responder child margin setted",
+            "match": {
+              "location": "dist/test/features/03-box/steps/02-ChildsMargin.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-box;establecer-la-alineacion-de-los-controles-hijo",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Establecer la alineacion de los controles hijo",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Que quiero establcer la alineacion de los controles hijos del objeto Box",
+            "match": {
+              "location": "dist/test/features/03-box/steps/03-ChildsAlignment.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "LLame al método setAlignment de la clase Box",
+            "match": {
+              "location": "dist/test/features/03-box/steps/03-ChildsAlignment.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "El objeto box debe responder alignment setted",
+            "match": {
+              "location": "dist/test/features/03-box/steps/03-ChildsAlignment.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  Con el fin de comprobar el comportamiento del objeto InputText\n  se hacen llamados a funciones para verificar el estado interno\n  de los mismos.",
+    "keyword": "Feature",
+    "name": "Pruebas del objeto InputText",
+    "line": 1,
+    "id": "pruebas-del-objeto-inputtext",
+    "tags": [],
+    "uri": "test/resources/04-input_text.feature",
+    "elements": [
+      {
+        "id": "pruebas-del-objeto-inputtext;heredar-de-un-objeto-frame",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Heredar de un objeto Frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Que InputText debe heredar de tipo Frame",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/01-HeredarObjetoFrame.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "LLame al constructor de la clase InputText",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/01-HeredarObjetoFrame.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "La instancia creada debe ser de tipo InputText y Frame",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/01-HeredarObjetoFrame.steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-inputtext;establecer-placeholder",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Establecer placeholder",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Que quiero establecer el placeholder del objeto InputText",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/02-SetPlaceholder.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "LLame al método setPlaceholder de la clase InputText",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/02-SetPlaceholder.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "El objeto InputText debe responder placeholder setted",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/02-SetPlaceholder.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-inputtext;establecer-escritura-secreta",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Establecer escritura secreta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Que quiero establecer escritura secreta del objeto InputText",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/03-SetPassword.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "LLame al método setPassword de la clase InputText",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/03-SetPassword.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "El objeto InputText debe responder secret mode setted",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/03-SetPassword.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-inputtext;establecer-escritura-monetaria",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Establecer escritura monetaria",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "Que quiero establecer escritura monetaria del objeto InputText",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/04-SetCurrency.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "LLame al método setCurrency de la clase InputText",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/04-SetCurrency.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "El objeto InputText debe responder currency mode setted",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/04-SetCurrency.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-inputtext;establecer-limite-de-caracteres",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Establecer limite de caracteres",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "Que quiero establecer limite de caracteres del objeto InputText",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/05-SetMaxLength.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "LLame al método setMaxLength de la clase InputText",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/05-SetMaxLength.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "El objeto InputText debe responder max length setted",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/05-SetMaxLength.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-inputtext;reiniciar-el-contenido-del-control",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Reiniciar el contenido del control",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "Que quiero reiniciar el value del objeto InputText",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/06-Reset.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "LLame al método reset de la clase InputText",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/06-Reset.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "El objeto InputText debe responder input reseted",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/06-Reset.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-inputtext;establecer-alineación-del-contenido",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Establecer alineación del contenido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "Que quiero establecer la alineación del contenido del objeto InputText",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/07-SetAlign.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "LLame al método setTextAlign de la clase InputText",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/07-SetAlign.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "El objeto InputText debe responder text align setted",
+            "match": {
+              "location": "dist/test/features/04-inputText/steps/07-SetAlign.steps.js:10"
             },
             "result": {
               "status": "passed"
