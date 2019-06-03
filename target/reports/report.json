@@ -51,8 +51,7 @@
               "location": "dist/test/features/01-frame/steps/01-Creation.steps.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -99,7 +98,8 @@
               "location": "dist/test/features/01-frame/steps/02-AddChild.steps.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -133,7 +133,8 @@
               "location": "dist/test/features/01-frame/steps/03-AccessToChilds.steps.js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -214,8 +215,7 @@
               "location": "dist/test/features/01-frame/steps/05-RemoveEventHandler.steps.js:6"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -227,7 +227,8 @@
               "location": "dist/test/features/01-frame/steps/05-RemoveEventHandler.steps.js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -286,8 +287,7 @@
               "location": "dist/test/features/01-frame/steps/06-SetHtml.steps.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -355,7 +355,8 @@
               "location": "dist/test/features/01-frame/steps/08-SetDimensions.steps.js:6"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 2000000
             }
           },
           {
@@ -379,8 +380,7 @@
               "location": "dist/test/features/01-frame/steps/08-SetDimensions.steps.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -508,7 +508,8 @@
               "location": "dist/test/features/01-frame/steps/11-SetPosition.steps.js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -589,8 +590,7 @@
               "location": "dist/test/features/01-frame/steps/13-SetFocus.steps.js:6"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -602,7 +602,8 @@
               "location": "dist/test/features/01-frame/steps/13-SetFocus.steps.js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -660,7 +661,8 @@
               "location": "dist/test/features/01-frame/steps/14-SetBackgroundColor.steps.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -846,8 +848,7 @@
               "location": "dist/test/features/01-frame/steps/18-SetBorderSize.steps.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -927,7 +928,8 @@
               "location": "dist/test/features/01-frame/steps/20-SetParent.steps..js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -974,8 +976,7 @@
               "location": "dist/test/features/01-frame/steps/21-SetColor.steps.js:7"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -1009,8 +1010,7 @@
               "location": "dist/test/features/01-frame/steps/22-SetCursor.steps.js:6"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -1034,7 +1034,8 @@
               "location": "dist/test/features/01-frame/steps/22-SetCursor.steps.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -1068,7 +1069,8 @@
               "location": "dist/test/features/01-frame/steps/23-SetDisplay.steps.js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -1080,8 +1082,7 @@
               "location": "dist/test/features/01-frame/steps/23-SetDisplay.steps.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -1115,8 +1116,7 @@
               "location": "dist/test/features/01-frame/steps/24-SetFontSize.steps.js:7"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -1162,7 +1162,8 @@
               "location": "dist/test/features/01-frame/steps/25-SetFontWwight.steps.js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -1288,8 +1289,7 @@
               "location": "dist/test/features/01-frame/steps/28-SetOpacity.steps.js:6"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -1313,7 +1313,8 @@
               "location": "dist/test/features/01-frame/steps/28-SetOpacity.steps.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -1381,8 +1382,7 @@
               "location": "dist/test/features/01-frame/steps/30-SetVAlign.steps.js:6"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -1394,7 +1394,8 @@
               "location": "dist/test/features/01-frame/steps/30-SetVAlign.steps.js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -1497,7 +1498,8 @@
               "location": "dist/test/features/02-window/steps/01-HeredarObjetoFrame.steps.js:8"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -1509,8 +1511,7 @@
               "location": "dist/test/features/02-window/steps/01-HeredarObjetoFrame.steps.js:11"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -1624,7 +1625,8 @@
               "location": "dist/test/features/02-window/steps/04-EstablecerBarraMenu.steps.js:6"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -1682,8 +1684,7 @@
               "location": "dist/test/features/02-window/steps/05-EstablecerTitleBar.steps.js:7"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -1741,8 +1742,7 @@
               "location": "dist/test/features/02-window/steps/06-EstablecerLayout.steps.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -1799,7 +1799,8 @@
               "location": "dist/test/features/03-box/steps/01-HeredarObjetoFrame.steps.js:11"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -2032,8 +2033,7 @@
               "location": "dist/test/features/04-inputText/steps/03-SetPassword.steps.js:7"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -2125,7 +2125,8 @@
               "location": "dist/test/features/04-inputText/steps/05-SetMaxLength.steps.js:7"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -2137,7 +2138,8 @@
               "location": "dist/test/features/04-inputText/steps/05-SetMaxLength.steps.js:10"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -2228,6 +2230,861 @@
             "name": "El objeto InputText debe responder text align setted",
             "match": {
               "location": "dist/test/features/04-inputText/steps/07-SetAlign.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  Con el fin de comprobar el comportamiento del objeto Multiline\n  se hacen llamados a funciones para verificar el estado interno\n  de los mismos.",
+    "keyword": "Feature",
+    "name": "Pruebas del objeto Multiline",
+    "line": 1,
+    "id": "pruebas-del-objeto-multiline",
+    "tags": [],
+    "uri": "test/resources/05-multiline_text.feature",
+    "elements": [
+      {
+        "id": "pruebas-del-objeto-multiline;heredar-de-un-objeto-inputtext",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Heredar de un objeto InputText",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Que Multiline debe heredar de tipo InputText",
+            "match": {
+              "location": "dist/test/features/05-multilineText/steps/01-HeredarObjetoFrame.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "LLame al constructor de la clase Multiline",
+            "match": {
+              "location": "dist/test/features/05-multilineText/steps/01-HeredarObjetoFrame.steps.js:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "La instancia creada debe ser de tipo Multiline y InputText",
+            "match": {
+              "location": "dist/test/features/05-multilineText/steps/01-HeredarObjetoFrame.steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-multiline;establecer-multi-linea",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Establecer multi linea",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Que quiero establecer escritura multi linea en el objecto Multiline",
+            "match": {
+              "location": "dist/test/features/05-multilineText/steps/02-SetMultiline.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "LLame el metodo setMultiline del objeto Multiline",
+            "match": {
+              "location": "dist/test/features/05-multilineText/steps/02-SetMultiline.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "El objecto Multiline debe responder multi line setted",
+            "match": {
+              "location": "dist/test/features/05-multilineText/steps/02-SetMultiline.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  Con el fin de comprobar el comportamiento del objeto Select\n  se hacen llamados a funciones para verificar el estado interno\n  de los mismos.",
+    "keyword": "Feature",
+    "name": "Pruebas del objeto Select",
+    "line": 1,
+    "id": "pruebas-del-objeto-select",
+    "tags": [],
+    "uri": "test/resources/06-select.feature",
+    "elements": [
+      {
+        "id": "pruebas-del-objeto-select;heredar-de-un-objeto-frame",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Heredar de un objeto Frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Que Select debe heredar de tipo Frame",
+            "match": {
+              "location": "dist/test/features/06-select/steps/01-HeredarObjetoFrame.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "LLame al constructor de la clase Select",
+            "match": {
+              "location": "dist/test/features/06-select/steps/01-HeredarObjetoFrame.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "La instancia creada debe ser de tipo Select y Frame",
+            "match": {
+              "location": "dist/test/features/06-select/steps/01-HeredarObjetoFrame.steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-select;selecionar-una-opción",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Selecionar una opción",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Que quiero seleccionar una opcion de un objeto Select",
+            "match": {
+              "location": "dist/test/features/06-select/steps/02-GetValue.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "LLame al método getValue del objeto Select",
+            "match": {
+              "location": "dist/test/features/06-select/steps/02-GetValue.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "El objeto Select debe responder el valor actual",
+            "match": {
+              "location": "dist/test/features/06-select/steps/02-GetValue.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-select;establecer-el-placeholder",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Establecer el placeholder",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Que quiero establecer un placeholder de un objeto Select",
+            "match": {
+              "location": "dist/test/features/06-select/steps/03-SetPlaceholder.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "LLame al método setPlaceholder del objeto Select",
+            "match": {
+              "location": "dist/test/features/06-select/steps/03-SetPlaceholder.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "El objeto Select debe responder placeholder setted",
+            "match": {
+              "location": "dist/test/features/06-select/steps/03-SetPlaceholder.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-select;agregar-opciones-a-objeto-select",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Agregar opciones a objeto select",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "Que quiero establecer opciones a un objeto Select",
+            "match": {
+              "location": "dist/test/features/06-select/steps/04-AddOption.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "LLame al método addOption del objeto Select",
+            "match": {
+              "location": "dist/test/features/06-select/steps/04-AddOption.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "El objeto Select debe responder option added",
+            "match": {
+              "location": "dist/test/features/06-select/steps/04-AddOption.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  Con el fin de comprobar el comportamiento del objeto Button\n  se hacen llamados a funciones para verificar el estado interno\n  de los mismos.",
+    "keyword": "Feature",
+    "name": "Pruebas del objeto Button",
+    "line": 1,
+    "id": "pruebas-del-objeto-button",
+    "tags": [],
+    "uri": "test/resources/07-button.feature",
+    "elements": [
+      {
+        "id": "pruebas-del-objeto-button;heredar-de-un-objeto-frame",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Heredar de un objeto Frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Que Button debe heredar de tipo Frame",
+            "match": {
+              "location": "dist/test/features/07-button/steps/01-HeredarObjetoFrame.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "LLame al constructor de la clase Button",
+            "match": {
+              "location": "dist/test/features/07-button/steps/01-HeredarObjetoFrame.steps.js:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "La instancia creada debe ser de tipo Button y Frame",
+            "match": {
+              "location": "dist/test/features/07-button/steps/01-HeredarObjetoFrame.steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-button;responder-al-evento-mousemove",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Responder al evento MouseMove",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Que quiero ejecutar eventos de mouse move de un objeto Button",
+            "match": {
+              "location": "dist/test/features/07-button/steps/02-MouseMove.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "LLame al método addEvent del objeto Button",
+            "match": {
+              "location": "dist/test/features/07-button/steps/03-Click.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "El objeto Button debe responder mousemove handler added",
+            "match": {
+              "location": "dist/test/features/07-button/steps/02-MouseMove.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-button;responder-al-evento-click",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Responder al evento Click",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Que quiero ejecutar eventos de mouse click de un objeto Button",
+            "match": {
+              "location": "dist/test/features/07-button/steps/03-Click.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "LLame al método addEvent del objeto Button",
+            "match": {
+              "location": "dist/test/features/07-button/steps/03-Click.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "El objeto Button debe responder click handler added",
+            "match": {
+              "location": "dist/test/features/07-button/steps/03-Click.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-button;establecer-imagen-de-icono",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Establecer imagen de icono",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "Que quiero establecer una imagen como icono de un objeto Button",
+            "match": {
+              "location": "dist/test/features/07-button/steps/04-SetIcon.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "LLame al método setIcon del objeto Button",
+            "match": {
+              "location": "dist/test/features/07-button/steps/04-SetIcon.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "El objeto Button debe responder icon setted",
+            "match": {
+              "location": "dist/test/features/07-button/steps/04-SetIcon.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  Con el fin de comprobar el comportamiento del objeto Image\n  se hacen llamados a funciones para verificar el estado interno\n  de los mismos.",
+    "keyword": "Feature",
+    "name": "Pruebas del objeto Image",
+    "line": 1,
+    "id": "pruebas-del-objeto-image",
+    "tags": [],
+    "uri": "test/resources/08-image.feature",
+    "elements": [
+      {
+        "id": "pruebas-del-objeto-image;heredar-de-un-objeto-frame",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Heredar de un objeto Frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Que Image debe heredar de tipo Frame",
+            "match": {
+              "location": "dist/test/features/08-image/steps/01-HeredarObjetoFrame.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "LLame al constructor de la clase Image",
+            "match": {
+              "location": "dist/test/features/08-image/steps/01-HeredarObjetoFrame.steps.js:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "La instancia creada debe ser de tipo Image y Frame",
+            "match": {
+              "location": "dist/test/features/08-image/steps/01-HeredarObjetoFrame.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-image;establecer-imagen",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Establecer imagen",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Que quiero establecer la imagen de un objeto Image",
+            "match": {
+              "location": "dist/test/features/08-image/steps/02-SetImage.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "LLame al método setSrc del objeto Image",
+            "match": {
+              "location": "dist/test/features/08-image/steps/02-SetImage.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "El objeto Image debe responder image setted",
+            "match": {
+              "location": "dist/test/features/08-image/steps/02-SetImage.steps.js:10"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-image;establecer-layout-circular",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Establecer layout circular",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Que quiero establecer layout circular de un objeto Image",
+            "match": {
+              "location": "dist/test/features/08-image/steps/03-SetRound.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "LLame al método setRound del objeto Image",
+            "match": {
+              "location": "dist/test/features/08-image/steps/03-SetRound.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "El objeto Image debe responder round layout setted",
+            "match": {
+              "location": "dist/test/features/08-image/steps/03-SetRound.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  Con el fin de comprobar el comportamiento del objeto Menu\n  se hacen llamados a funciones para verificar el estado interno\n  de los mismos.",
+    "keyword": "Feature",
+    "name": "Pruebas del objeto Menu",
+    "line": 1,
+    "id": "pruebas-del-objeto-menu",
+    "tags": [],
+    "uri": "test/resources/09-menu.feature",
+    "elements": [
+      {
+        "id": "pruebas-del-objeto-menu;heredar-de-un-objeto-frame",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Heredar de un objeto Frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Que Menu debe heredar de tipo Frame",
+            "match": {
+              "location": "dist/test/features/09-menu/steps/01-HeredarObjetoFrame.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "LLame al constructor de la clase Menu",
+            "match": {
+              "location": "dist/test/features/09-menu/steps/01-HeredarObjetoFrame.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "La instancia creada debe ser de tipo Menu y Frame",
+            "match": {
+              "location": "dist/test/features/09-menu/steps/01-HeredarObjetoFrame.steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-menu;agregar-items-al-menu",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Agregar items al menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Que quiero agregar items al objeto tipo Menu",
+            "match": {
+              "location": "dist/test/features/09-menu/steps/02-AddItem.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "LLame al método addItem de la clase Menu",
+            "match": {
+              "location": "dist/test/features/09-menu/steps/02-AddItem.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "El objeto Menu debe responder item added",
+            "match": {
+              "location": "dist/test/features/09-menu/steps/02-AddItem.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  Con el fin de comprobar el comportamiento del objeto Desktop\n  se hacen llamados a funciones para verificar el estado interno\n  de los mismos.",
+    "keyword": "Feature",
+    "name": "Pruebas del objeto Destop",
+    "line": 1,
+    "id": "pruebas-del-objeto-destop",
+    "tags": [],
+    "uri": "test/resources/10-desktop.feature",
+    "elements": [
+      {
+        "id": "pruebas-del-objeto-destop;heredar-de-un-objeto-frame",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Heredar de un objeto Frame",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Que Desktop debe heredar de tipo Frame",
+            "match": {
+              "location": "dist/test/features/10-desktop/steps/01-HeredarObjetoFrame.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "LLame al constructor de la clase Desktop",
+            "match": {
+              "location": "dist/test/features/10-desktop/steps/01-HeredarObjetoFrame.steps.js:8"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "La instancia creada debe ser de tipo Desktop y Frame",
+            "match": {
+              "location": "dist/test/features/10-desktop/steps/01-HeredarObjetoFrame.steps.js:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pruebas-del-objeto-destop;abarcar-dimensiones-del-navegador",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Abarcar dimensiones del navegador",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Que el objeto Desktop debe abarcar las dimensiones del navegador",
+            "match": {
+              "location": "dist/test/features/10-desktop/steps/02-Fill.steps.js:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "LLame al método fill del objeto Desktop",
+            "match": {
+              "location": "dist/test/features/10-desktop/steps/02-Fill.steps.js:7"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "El objeto Desktop debe responder space filled",
+            "match": {
+              "location": "dist/test/features/10-desktop/steps/02-Fill.steps.js:10"
             },
             "result": {
               "status": "passed"
